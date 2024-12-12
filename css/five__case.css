@@ -1,0 +1,55 @@
+.five__case {
+  width: 100%;
+  height: 225px;
+  .five__case__story {
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #c0bdbdaa;
+    border-radius: 16px;
+    .five__case__text {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: #f9bc00;
+      }
+      p {
+        font-size: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .five__case__image {
+      width: 100%;
+      height: calc(225px - 70px);
+      padding: 8px;
+      .five__case__image1 {
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        .five__case__image2 {
+          width: 110px;
+          height: 110px;
+          object-fit: contain;
+        }
+        span {
+          width: 1px;
+          height: 110px;
+          background-color: rgb(231, 225, 225);
+          margin: auto;
+        }
+      }
+    }
+  }
+}

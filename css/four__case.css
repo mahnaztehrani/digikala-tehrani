@@ -1,0 +1,22 @@
+.four__case {
+  width: 100%;
+  height: 300px;
+  .four__case__1 {
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    .four__case__image {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 660px;
+        height: 264px;
+        border-radius: 12px;
+      }
+    }
+  }
+}
